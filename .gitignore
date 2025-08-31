@@ -1,0 +1,47 @@
+
+# Python cache / build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+yolovenv/
+.env/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# YOLOv8 training outputs
+runs/
+results/
+
+# But explicitly ignore detect and postprocessed inside runs
+runs/detect/
+runs/postprocessed/
+# Model weights and checkpoints
+*.pt
+*.onnx
+*.pth
+*.weights
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+
+# Ignore datasets inside scripts/
+scripts/data/
+scripts/dataset/
